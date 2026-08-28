@@ -1,0 +1,571 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		137170703040D1E5002EF998 /* BankingConfig in Frameworks */ = {isa = PBXBuildFile; productRef = 1371706F3040D1E5002EF998 /* BankingConfig */; };
+		137170733040D1F8002EF998 /* BankingModels in Frameworks */ = {isa = PBXBuildFile; productRef = 137170723040D1F8002EF998 /* BankingModels */; };
+		1371707C3040D214002EF998 /* BankingUtilities in Frameworks */ = {isa = PBXBuildFile; productRef = 1371707B3040D214002EF998 /* BankingUtilities */; };
+		1371707F3040D22B002EF998 /* BankingOfflineRoot in Frameworks */ = {isa = PBXBuildFile; productRef = 1371707E3040D22B002EF998 /* BankingOfflineRoot */; };
+		137170823040D234002EF998 /* BankingOnlineRoot in Frameworks */ = {isa = PBXBuildFile; productRef = 137170813040D234002EF998 /* BankingOnlineRoot */; };
+		137170863040E0C8002EF998 /* BankingUtilities in Frameworks */ = {isa = PBXBuildFile; productRef = 137170853040E0C8002EF998 /* BankingUtilities */; };
+		137170893040E0D0002EF998 /* BankingConfig in Frameworks */ = {isa = PBXBuildFile; productRef = 137170883040E0D0002EF998 /* BankingConfig */; };
+		1371708C3040E0D9002EF998 /* BankingModels in Frameworks */ = {isa = PBXBuildFile; productRef = 1371708B3040E0D9002EF998 /* BankingModels */; };
+		1371708F3040E0EB002EF998 /* BankingNavigationCore in Frameworks */ = {isa = PBXBuildFile; productRef = 1371708E3040E0EB002EF998 /* BankingNavigationCore */; };
+		1371709B3040E112002EF998 /* BankingDesignSystem in Frameworks */ = {isa = PBXBuildFile; productRef = 1371709A3040E112002EF998 /* BankingDesignSystem */; };
+		1371709E3040E11A002EF998 /* BankingKeychain in Frameworks */ = {isa = PBXBuildFile; productRef = 1371709D3040E11A002EF998 /* BankingKeychain */; };
+		137170A43040E12D002EF998 /* BankingNetworking in Frameworks */ = {isa = PBXBuildFile; productRef = 137170A33040E12D002EF998 /* BankingNetworking */; };
+		137170A83040E7ED002EF998 /* BankingDashboard in Frameworks */ = {isa = PBXBuildFile; productRef = 137170A73040E7ED002EF998 /* BankingDashboard */; };
+		137170AD3040EFD9002EF998 /* BankingCards in Frameworks */ = {isa = PBXBuildFile; productRef = 137170AC3040EFD9002EF998 /* BankingCards */; };
+		137170B03040EFE4002EF998 /* BankingMenu in Frameworks */ = {isa = PBXBuildFile; productRef = 137170AF3040EFE4002EF998 /* BankingMenu */; };
+		1371718C30417B93002EF998 /* BankingSession in Frameworks */ = {isa = PBXBuildFile; productRef = 1371718B30417B93002EF998 /* BankingSession */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		137170313040830B002EF998 /* BankingApp-MVVM-C.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "BankingApp-MVVM-C.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		1371704A3040B5E3002EF998 /* Exceptions for "Packages" folder in "BankingApp-MVVM-C" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				"1-Base/BankingConfig",
+				"1-Base/BankingModels",
+				"1-Base/BankingNavigationCore",
+				"1-Base/BankingSession",
+				"1-Base/BankingUtilities",
+				"2-Infrastructure/BankingDesignSystem",
+				"2-Infrastructure/BankingKeychain",
+				"2-Infrastructure/BankingNetworking",
+				"3-Features/BankingCards",
+				"3-Features/BankingDashboard",
+				"3-Features/BankingMenu",
+				"3-Features/BankingOfflineRoot",
+				"3-Features/BankingOnlineRoot",
+			);
+			target = 137170303040830B002EF998 /* BankingApp-MVVM-C */;
+		};
+		1371718E3041B7EE002EF998 /* Exceptions for "BankingApp-MVVM-C" folder in "BankingApp-MVVM-C" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = 137170303040830B002EF998 /* BankingApp-MVVM-C */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		137170333040830B002EF998 /* BankingApp-MVVM-C */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				1371718E3041B7EE002EF998 /* Exceptions for "BankingApp-MVVM-C" folder in "BankingApp-MVVM-C" target */,
+			);
+			path = "BankingApp-MVVM-C";
+			sourceTree = "<group>";
+		};
+		137170483040B49D002EF998 /* Packages */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				1371704A3040B5E3002EF998 /* Exceptions for "Packages" folder in "BankingApp-MVVM-C" target */,
+			);
+			path = Packages;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1371702E3040830B002EF998 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1371707C3040D214002EF998 /* BankingUtilities in Frameworks */,
+				1371708C3040E0D9002EF998 /* BankingModels in Frameworks */,
+				1371709E3040E11A002EF998 /* BankingKeychain in Frameworks */,
+				1371707F3040D22B002EF998 /* BankingOfflineRoot in Frameworks */,
+				137170703040D1E5002EF998 /* BankingConfig in Frameworks */,
+				137170823040D234002EF998 /* BankingOnlineRoot in Frameworks */,
+				137170A43040E12D002EF998 /* BankingNetworking in Frameworks */,
+				137170A83040E7ED002EF998 /* BankingDashboard in Frameworks */,
+				1371718C30417B93002EF998 /* BankingSession in Frameworks */,
+				137170863040E0C8002EF998 /* BankingUtilities in Frameworks */,
+				137170733040D1F8002EF998 /* BankingModels in Frameworks */,
+				137170B03040EFE4002EF998 /* BankingMenu in Frameworks */,
+				1371708F3040E0EB002EF998 /* BankingNavigationCore in Frameworks */,
+				1371709B3040E112002EF998 /* BankingDesignSystem in Frameworks */,
+				137170893040E0D0002EF998 /* BankingConfig in Frameworks */,
+				137170AD3040EFD9002EF998 /* BankingCards in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		137170283040830B002EF998 = {
+			isa = PBXGroup;
+			children = (
+				137170483040B49D002EF998 /* Packages */,
+				137170333040830B002EF998 /* BankingApp-MVVM-C */,
+				137170323040830B002EF998 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		137170323040830B002EF998 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				137170313040830B002EF998 /* BankingApp-MVVM-C.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		137170303040830B002EF998 /* BankingApp-MVVM-C */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1371703C3040830D002EF998 /* Build configuration list for PBXNativeTarget "BankingApp-MVVM-C" */;
+			buildPhases = (
+				1371702D3040830B002EF998 /* Sources */,
+				1371702E3040830B002EF998 /* Frameworks */,
+				1371702F3040830B002EF998 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				137170333040830B002EF998 /* BankingApp-MVVM-C */,
+				137170483040B49D002EF998 /* Packages */,
+			);
+			name = "BankingApp-MVVM-C";
+			packageProductDependencies = (
+				1371706F3040D1E5002EF998 /* BankingConfig */,
+				137170723040D1F8002EF998 /* BankingModels */,
+				1371707B3040D214002EF998 /* BankingUtilities */,
+				1371707E3040D22B002EF998 /* BankingOfflineRoot */,
+				137170813040D234002EF998 /* BankingOnlineRoot */,
+				137170853040E0C8002EF998 /* BankingUtilities */,
+				137170883040E0D0002EF998 /* BankingConfig */,
+				1371708B3040E0D9002EF998 /* BankingModels */,
+				1371708E3040E0EB002EF998 /* BankingNavigationCore */,
+				1371709A3040E112002EF998 /* BankingDesignSystem */,
+				1371709D3040E11A002EF998 /* BankingKeychain */,
+				137170A33040E12D002EF998 /* BankingNetworking */,
+				137170A73040E7ED002EF998 /* BankingDashboard */,
+				137170AC3040EFD9002EF998 /* BankingCards */,
+				137170AF3040EFE4002EF998 /* BankingMenu */,
+				1371718B30417B93002EF998 /* BankingSession */,
+			);
+			productName = "BankingApp-MVVM-C";
+			productReference = 137170313040830B002EF998 /* BankingApp-MVVM-C.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		137170293040830B002EF998 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 2650;
+				LastUpgradeCheck = 2650;
+				TargetAttributes = {
+					137170303040830B002EF998 = {
+						CreatedOnToolsVersion = 26.5;
+					};
+				};
+			};
+			buildConfigurationList = 1371702C3040830B002EF998 /* Build configuration list for PBXProject "BankingApp-MVVM-C" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 137170283040830B002EF998;
+			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				1371707D3040D22B002EF998 /* XCLocalSwiftPackageReference "Packages/3-Features/BankingOfflineRoot" */,
+				137170803040D234002EF998 /* XCLocalSwiftPackageReference "Packages/3-Features/BankingOnlineRoot" */,
+				137170843040E0C8002EF998 /* XCLocalSwiftPackageReference "Packages/1-Base/BankingUtilities" */,
+				137170873040E0D0002EF998 /* XCLocalSwiftPackageReference "Packages/1-Base/BankingConfig" */,
+				1371708A3040E0D9002EF998 /* XCLocalSwiftPackageReference "Packages/1-Base/BankingModels" */,
+				1371708D3040E0EB002EF998 /* XCLocalSwiftPackageReference "Packages/1-Base/BankingNavigationCore" */,
+				137170993040E112002EF998 /* XCLocalSwiftPackageReference "Packages/2-Infrastructure/BankingDesignSystem" */,
+				1371709C3040E11A002EF998 /* XCLocalSwiftPackageReference "Packages/2-Infrastructure/BankingKeychain" */,
+				137170A23040E12D002EF998 /* XCLocalSwiftPackageReference "Packages/2-Infrastructure/BankingNetworking" */,
+				137170A63040E7ED002EF998 /* XCLocalSwiftPackageReference "Packages/3-Features/BankingDashboard" */,
+				137170AB3040EFD9002EF998 /* XCLocalSwiftPackageReference "Packages/3-Features/BankingCards" */,
+				137170AE3040EFE4002EF998 /* XCLocalSwiftPackageReference "Packages/3-Features/BankingMenu" */,
+				1371718A30417B93002EF998 /* XCLocalSwiftPackageReference "Packages/1-Base/BankingSession" */,
+			);
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 137170323040830B002EF998 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				137170303040830B002EF998 /* BankingApp-MVVM-C */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1371702F3040830B002EF998 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1371702D3040830B002EF998 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		1371703A3040830D002EF998 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = 262AZKDPMG;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		1371703B3040830D002EF998 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = 262AZKDPMG;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1371703D3040830D002EF998 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 262AZKDPMG;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "BankingApp-MVVM-C/Info.plist";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "za.lachkar.BankingApp-MVVM-C";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1371703E3040830D002EF998 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 262AZKDPMG;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "BankingApp-MVVM-C/Info.plist";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "za.lachkar.BankingApp-MVVM-C";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1371702C3040830B002EF998 /* Build configuration list for PBXProject "BankingApp-MVVM-C" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1371703A3040830D002EF998 /* Debug */,
+				1371703B3040830D002EF998 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1371703C3040830D002EF998 /* Build configuration list for PBXNativeTarget "BankingApp-MVVM-C" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1371703D3040830D002EF998 /* Debug */,
+				1371703E3040830D002EF998 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCLocalSwiftPackageReference section */
+		1371707D3040D22B002EF998 /* XCLocalSwiftPackageReference "Packages/3-Features/BankingOfflineRoot" */ = {
+			isa = XCLocalSwiftPackageReference;
+			relativePath = "Packages/3-Features/BankingOfflineRoot";
+		};
+		137170803040D234002EF998 /* XCLocalSwiftPackageReference "Packages/3-Features/BankingOnlineRoot" */ = {
+			isa = XCLocalSwiftPackageReference;
+			relativePath = "Packages/3-Features/BankingOnlineRoot";
+		};
+		137170843040E0C8002EF998 /* XCLocalSwiftPackageReference "Packages/1-Base/BankingUtilities" */ = {
+			isa = XCLocalSwiftPackageReference;
+			relativePath = "Packages/1-Base/BankingUtilities";
+		};
+		137170873040E0D0002EF998 /* XCLocalSwiftPackageReference "Packages/1-Base/BankingConfig" */ = {
+			isa = XCLocalSwiftPackageReference;
+			relativePath = "Packages/1-Base/BankingConfig";
+		};
+		1371708A3040E0D9002EF998 /* XCLocalSwiftPackageReference "Packages/1-Base/BankingModels" */ = {
+			isa = XCLocalSwiftPackageReference;
+			relativePath = "Packages/1-Base/BankingModels";
+		};
+		1371708D3040E0EB002EF998 /* XCLocalSwiftPackageReference "Packages/1-Base/BankingNavigationCore" */ = {
+			isa = XCLocalSwiftPackageReference;
+			relativePath = "Packages/1-Base/BankingNavigationCore";
+		};
+		137170993040E112002EF998 /* XCLocalSwiftPackageReference "Packages/2-Infrastructure/BankingDesignSystem" */ = {
+			isa = XCLocalSwiftPackageReference;
+			relativePath = "Packages/2-Infrastructure/BankingDesignSystem";
+		};
+		1371709C3040E11A002EF998 /* XCLocalSwiftPackageReference "Packages/2-Infrastructure/BankingKeychain" */ = {
+			isa = XCLocalSwiftPackageReference;
+			relativePath = "Packages/2-Infrastructure/BankingKeychain";
+		};
+		137170A23040E12D002EF998 /* XCLocalSwiftPackageReference "Packages/2-Infrastructure/BankingNetworking" */ = {
+			isa = XCLocalSwiftPackageReference;
+			relativePath = "Packages/2-Infrastructure/BankingNetworking";
+		};
+		137170A63040E7ED002EF998 /* XCLocalSwiftPackageReference "Packages/3-Features/BankingDashboard" */ = {
+			isa = XCLocalSwiftPackageReference;
+			relativePath = "Packages/3-Features/BankingDashboard";
+		};
+		137170AB3040EFD9002EF998 /* XCLocalSwiftPackageReference "Packages/3-Features/BankingCards" */ = {
+			isa = XCLocalSwiftPackageReference;
+			relativePath = "Packages/3-Features/BankingCards";
+		};
+		137170AE3040EFE4002EF998 /* XCLocalSwiftPackageReference "Packages/3-Features/BankingMenu" */ = {
+			isa = XCLocalSwiftPackageReference;
+			relativePath = "Packages/3-Features/BankingMenu";
+		};
+		1371718A30417B93002EF998 /* XCLocalSwiftPackageReference "Packages/1-Base/BankingSession" */ = {
+			isa = XCLocalSwiftPackageReference;
+			relativePath = "Packages/1-Base/BankingSession";
+		};
+/* End XCLocalSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		1371706F3040D1E5002EF998 /* BankingConfig */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = BankingConfig;
+		};
+		137170723040D1F8002EF998 /* BankingModels */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = BankingModels;
+		};
+		1371707B3040D214002EF998 /* BankingUtilities */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = BankingUtilities;
+		};
+		1371707E3040D22B002EF998 /* BankingOfflineRoot */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = BankingOfflineRoot;
+		};
+		137170813040D234002EF998 /* BankingOnlineRoot */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = BankingOnlineRoot;
+		};
+		137170853040E0C8002EF998 /* BankingUtilities */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = BankingUtilities;
+		};
+		137170883040E0D0002EF998 /* BankingConfig */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = BankingConfig;
+		};
+		1371708B3040E0D9002EF998 /* BankingModels */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = BankingModels;
+		};
+		1371708E3040E0EB002EF998 /* BankingNavigationCore */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = BankingNavigationCore;
+		};
+		1371709A3040E112002EF998 /* BankingDesignSystem */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = BankingDesignSystem;
+		};
+		1371709D3040E11A002EF998 /* BankingKeychain */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = BankingKeychain;
+		};
+		137170A33040E12D002EF998 /* BankingNetworking */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = BankingNetworking;
+		};
+		137170A73040E7ED002EF998 /* BankingDashboard */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = BankingDashboard;
+		};
+		137170AC3040EFD9002EF998 /* BankingCards */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = BankingCards;
+		};
+		137170AF3040EFE4002EF998 /* BankingMenu */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = BankingMenu;
+		};
+		1371718B30417B93002EF998 /* BankingSession */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = BankingSession;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 137170293040830B002EF998 /* Project object */;
+}
