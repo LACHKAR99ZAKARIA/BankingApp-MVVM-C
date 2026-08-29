@@ -31,10 +31,7 @@ public final class OnlineCoordinator:
     }
 
     public func navigate(to route: OnlineRoute) {
-        switch route.navigationType {
-        default:
-            push(route)
-        }
+        push(route)
     }
 
     public func showTransfer() {

@@ -12,8 +12,4 @@ public enum OnlineRoute: Route {
     case transfer
     case notification
     case profile
-
-    public var navigationType: NavigationType {
-        .push
-    }
 }

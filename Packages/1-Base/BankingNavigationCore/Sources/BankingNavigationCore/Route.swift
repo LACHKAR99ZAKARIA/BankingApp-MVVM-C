@@ -9,6 +9,4 @@ import Foundation
 
 import Foundation
 
-public protocol Route: Hashable, Sendable {
-    var navigationType: NavigationType { get }
-}
+public protocol Route: Hashable, Sendable {}

@@ -8,6 +8,8 @@
 
 import SwiftUI
 import BankingDashboard
+import BankingCards
+import BankingMenu
 
 public struct OnlineRootView: View {
     @ObservedObject var coordinator: OnlineCoordinator
@@ -26,13 +28,13 @@ public struct OnlineRootView: View {
                     Label("Home", systemImage: "house")
                 }
             
-            Text("test 2")
+            CardsCoordinatorView()
                 .tag(OnlineTab.cards)
                 .tabItem {
                     Label("Cards", systemImage: "creditcard")
                 }
             
-            Text("test 3")
+            MenuCoordinatorView()
                 .tag(OnlineTab.menu)
                 .tabItem {
                     Label("Menu", systemImage: "line.3.horizontal")

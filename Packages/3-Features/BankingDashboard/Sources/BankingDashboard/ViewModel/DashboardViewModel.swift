@@ -6,3 +6,8 @@
 //
 
 import Foundation
+import BankingNetworking
+
+class DashboardViewModel: ObservableObject {
+    @Published var isLoading = false
+}

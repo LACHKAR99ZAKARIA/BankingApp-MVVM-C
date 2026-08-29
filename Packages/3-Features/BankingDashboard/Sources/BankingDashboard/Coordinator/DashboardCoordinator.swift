@@ -11,13 +11,8 @@ import BankingNavigationCore
 
 class DashboardCoordinator: ObservableObject, CoordinatorProtocol {
     @Published var path = NavigationPath()
-    
+
     func navigate(to route: DashboardRoute) {
-        switch route.navigationType {
-        case .push:
-            path.append(route)
-        default:
-            path.append(route)
-        }
+        path.append(route)
     }
 }

@@ -24,13 +24,16 @@ let package = Package(
             path: "../../Base/BankingUtilities"
         ),
         .package(
+            path: "../../Base/BankingModels"
+        ),
+        .package(
             path: "../../Infrastructure/BankingDesignSystem"
         ),
         .package(
             path: "../../Infrastructure/BankingNetworking"
         ),
         .package(
-            path: "../../Feature/BankingDashboard"
+            path: "../../Features/BankingDashboard"
         ),
     ],
     targets: [
@@ -52,6 +55,10 @@ let package = Package(
                     package: "BankingUtilities"
                 ),
                 .product(
+                    name: "BankingModels",
+                    package: "BankingModels"
+                ),
+                .product(
                     name: "BankingDesignSystem",
                     package: "BankingDesignSystem"
                 ),
@@ -65,7 +72,7 @@ let package = Package(
                 )
             ]
         ),
-        
+
     ],
     swiftLanguageModes: [.v6]
 )

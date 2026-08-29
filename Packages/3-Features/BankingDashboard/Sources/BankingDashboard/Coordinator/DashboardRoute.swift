@@ -11,8 +11,4 @@ import BankingNavigationCore
 enum DashboardRoute: Route {
     case accounts
     case accountDetails
-
-    var navigationType: NavigationType {
-        .push
-    }
 }

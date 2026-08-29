@@ -18,7 +18,7 @@ let package = Package(
             path: "../../Base/BankingModels"
         ),
         .package(
-            path: "../../Base/BankingUtiles"
+            path: "../../Base/BankingUtilities"
         ),
     ],
     targets: [
@@ -32,8 +32,8 @@ let package = Package(
                     package: "BankingModels"
                 ),
                 .product(
-                    name: "BankingUtiles",
-                    package: "BankingUtiles"
+                    name: "BankingUtilities",
+                    package: "BankingUtilities"
                 )
             ]
         ),

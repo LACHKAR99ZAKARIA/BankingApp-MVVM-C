@@ -11,8 +11,4 @@ public enum OfflineRoute: Route {
     case login
     case register
     case forgotPassword
-    
-    public var navigationType: NavigationType {
-        .push
-    }
 }
